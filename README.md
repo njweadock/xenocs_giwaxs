@@ -1,5 +1,8 @@
 # Load, process, and analyze Xenocs Xeuss 3.0 GIWAXS data 
-For GIWAXS data recorded with the beam at the corner of the Eiger2 1M detector!
+For GIWAXS data recorded with the beam at the corner of the Eiger2 1M detector! This repository is intended to provide template processing/plotting notebooks to be copied for your own data workflows. Feel free to clone or copy files directly out from here. 
+
+There are two Xenocs Xeuss 3.0 GIWAXS output files in the example_data folder. Also included are two .poni pyFAI calibration files with sample-detector-distance (sdd) set to 100 or 120 mm. These poni text files should not need to change for all Xenocs Xeuss 3.0 measurements, except for the sdd value which is easy to overwrite (units in meters). 
+
 This code is all a work-in-progress. Contributions are welcome! 
 
 ## Overview
